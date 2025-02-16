@@ -32,10 +32,14 @@ npm install
 * Configuration
 
 ### All configurations are done through the .env file:
-* TELEGRAM_BOT_TOKEN: Your Telegram bot Api token
-* GEMINI_API_KEY: Your Gemini API key
+* TELEGRAM_BOT_TOKEN: Your Telegram bot Api token  //To Search bot father on telegram search bar to get telegram bot api token. 
+* GEMINI_API_KEY: Your Gemini API key              //To login and get gemini api key free in gemini ai studio
 
-### If any Queries Text me on Insta  
+### where to get api key
+1. To Search bot father on telegram search bar to get telegram bot api token
+2. To login in gemini ai studio and get free api key for gemini ai.
+
+### If any Queries Text me on Insta 
 
 ## HAPPY CODING
 
