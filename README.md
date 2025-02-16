@@ -1,46 +1,42 @@
-##Gemini AI Using in Telegram Bot
+## Gemini AI Using in Telegram Bot
 A Node.js Telegram bot powered by Google's Gemini AI for intelligent conversations.
 Note : This chatbot is only used for conversation not accessing Realtime data or request.
 
-###Features
-AI-powered responses using Gemini
-Easy setup and configuration
-Real-time message processing
+### Features
+* AI-powered responses using Gemini
+* Easy setup and configuration
+* Real-time message processing
 
-###Prerequisites
-Node.js (v18 or higher)
-npm (comes with Node.js)
-Telegram bot token from BotFather
-Gemini API key from Google AI Studio
+### Prerequisites
+* Node.js (v18 or higher)
+* npm (comes with Node.js)
+* Telegram bot token from BotFather
+* Gemini API key from Google AI Studio
 
-###Install dependencies
+### Install dependencies
+```
 npm install
+```
+### Usage:
+#### Start the bot:
+```
+ npm start
+```
+* Interact with your bot on Telegram by sending any message.
 
-###Create .env file
-cp .env.example .env
+### Dependencies
+### Main packages used:
+* node-telegram-bot-api: Telegram bot API wrapper
+* @google/generative-ai: Gemini AI SDK
+* dotenv: Environment variables management
+* Configuration
 
-####Edit .env file with your credentials
-TELEGRAM_BOT_TOKEN=your_telegram_bot_token
-GEMINI_API_KEY=your_gemini_api_key
+### All configurations are done through the .env file:
+* TELEGRAM_BOT_TOKEN: Your Telegram bot Api token
+* GEMINI_API_KEY: Your Gemini API key
 
-###Usage
-###Start the bot:
-npm start
-Interact with your bot on Telegram by sending any message.
+### If any Queries Text me on Insta  
 
-###Dependencies
-###Main packages used:
-node-telegram-bot-api: Telegram bot API wrapper
-@google/generative-ai: Gemini AI SDK
-dotenv: Environment variables management
-Configuration
-
-####All configurations are done through the .env file:
-TELEGRAM_BOT_TOKEN: Your Telegram bot token
-GEMINI_API_KEY: Your Gemini API key
-
-If any Queries Text me on Insta  
-
-##HAPPY CODING
+## HAPPY CODING
 
 
