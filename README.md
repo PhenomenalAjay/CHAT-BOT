@@ -1,4 +1,4 @@
-## Gemini AI Using in Telegram Bot with the help of Node.js 
+## AI CHAT like chatgpt using Gemini AI API and made response in Telegram Bot with the help of Node.js 
 A Node.js Telegram bot powered by Google's Gemini AI for intelligent conversations.
 Note : This chatbot is only used for conversation not accessing Realtime data or request.
 
