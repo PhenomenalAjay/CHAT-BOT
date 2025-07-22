@@ -7,8 +7,9 @@
     "start": "node index.js"
   },
   "dependencies": {
+    "@google/genai": "^1.10.0",
+    "@google/generative-ai": "^0.1.0",
     "dotenv": "^16.3.1",
-    "node-telegram-bot-api": "^0.61.0",
-    "@google/generative-ai": "^0.1.0"
+    "node-telegram-bot-api": "^0.61.0"
   }
 }
