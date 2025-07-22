@@ -1,11 +1,14 @@
-## Gemini AI Using in Telegram Bot
-A Node.js Telegram bot powered by Google's Gemini AI for intelligent conversations.
-Note : This chatbot is only used for conversation not accessing Realtime data or request.
+## AI Chatbot using Gemini AI API in a Telegram Bot with Node.js
+
+A Node.js Telegram bot powered by Google's Gemini AI for intelligent conversations.  
+Note: This chatbot is designed for conversational purposes only and does not access real-time data or external requests.
 
 ### Features
-* AI-powered responses using Gemini
+* AI-powered responses using Gemini AI
 * Easy setup and configuration
-* Real-time message processing
+* Real-time message processing with Telegram polling
+* Handles long responses by splitting messages to comply with Telegram limits
+* Basic error handling for API and messaging issues
 
 ### Prerequisites
 * Node.js (v18 or higher)
@@ -14,37 +17,41 @@ Note : This chatbot is only used for conversation not accessing Realtime data or
 * Gemini API key from Google AI Studio
 
 ### Install dependencies
-```
+```bash
 npm install
 ```
-### Usage:
+
+### Usage
 #### Start the bot:
-```
- npm start
+```bash
+npm start
 ```
 * Interact with your bot on Telegram by sending any message.
+* Use the `/start` command to receive a welcome message.
 
 ### Dependencies
-### Main packages used:
-* node-telegram-bot-api: Telegram bot API wrapper
-* @google/generative-ai: Gemini AI SDK
-* dotenv: Environment variables management
-* Configuration
+Main packages used:
+* `node-telegram-bot-api`: Telegram bot API wrapper
+* `@google/genai`: Gemini AI SDK
+* `dotenv`: Environment variables management
 
-### All configurations are done through the .env file:
-* TELEGRAM_BOT_TOKEN: Your Telegram bot Api token
-* GEMINI_API_KEY: Your Gemini API key
+### Configuration
+All configurations are done through the `.env` file:
 
-### If any Queries Text me on Insta  
+* `TELEGRAM_BOT_TOKEN`: Your Telegram bot API token  
+  (Get it by searching for "BotFather" in Telegram and creating a bot)
+* `GEMINI_API_KEY`: Your Gemini API key  
+  (Obtain it by logging into Gemini AI Studio)
+
+### Notes
+* Telegram messages have a maximum length of 4096 characters. The bot automatically splits longer responses into smaller chunks to comply with this limit.
+* If the bot encounters an error while processing a request, it will notify the user with an error message.
+
+### Where to get API keys
+1. Search for "BotFather" in the Telegram app to create a bot and get your Telegram bot token.
+2. Log in to Gemini AI Studio to get a free API key for Gemini AI.
+
+### Contact
+If you have any questions, feel free to reach out to me on Instagram.
 
 ## HAPPY CODING
-
-* TELEGRAM_BOT_TOKEN: Your Telegram bot Api token  //To Search bot father on telegram search bar to get telegram bot api token. 
-* GEMINI_API_KEY: Your Gemini API key              //To login and get gemini api key free in gemini ai studio 
-
-* Note: 1. To Search bot father on telegram search bar to get telegram bot api token.
-        2. To login and get gemini api key free in gemini ai studio 
-
-### where to get api key
-1. To Search bot father on telegram search bar to get telegram bot api token
-2. To login in gemini ai studio and get free api key for gemini ai.
